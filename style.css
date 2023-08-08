@@ -1,0 +1,342 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    height: 800px;
+    background-image: url("netflix-1.jpg");
+    background-size: cover;
+
+}
+
+.nav{
+    height: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.image{
+    height: 100px;
+    background-image: url("netflix-logo.png");
+    background-size: cover;
+    width: 200px;
+    margin-left: 30px;
+    
+    
+}
+
+.lan{
+    font-size: 0.85rem;
+    color: white;
+    height: 32px;
+    margin-right: 100px;
+    display: flex;
+    font-size: 1.25rem;
+    padding-bottom: 5px;
+  
+}
+
+.fa{
+    padding-right: 10px;
+    padding-top: 3px;
+}
+
+.in{
+       font-size: 1rem;
+       margin-left: 100px;
+       border: 1px solid red;
+       background-color: red;
+       border-radius: 5%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       
+}
+
+.head{
+    height: 450px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.head p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.head h1{
+         font-weight: bolder;
+         font-size: 3rem;
+}
+
+.head h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px
+}
+
+.search{
+    width: 375px;
+    height: 55px;
+    background-color: transparent;
+    color: aliceblue;
+    border: 1px solid #97a19a;
+   
+}
+
+
+.nav-search button{
+   background-color: red;
+    height: 55px;
+    width: 200px;
+    border: none;
+    margin-left: 5px;
+    color: aliceblue;
+    font-size: 1.25rem;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.tv{
+   padding: 50px 12%;
+   font-size: 1.5rem;
+   color: white;
+}
+
+.he{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.para{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.photo{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+}
+
+.photo img{
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+.mobile{
+    height: 500px;
+    color: white;
+   display: flex;
+   align-items: center;
+   margin: 0 40px;
+}
+
+
+
+.down h2{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.down p{
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+
+.photo2{
+    background-image: url("feature-2.png");
+    background-size: cover;
+    height: 360px;
+    width: 478px;
+    margin: 0 120px;
+}
+
+.every{
+    height: 500px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 0 40px;
+    margin-left: 150px;
+}
+
+.where h2{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.where p{
+    font-size: 1.25rem;
+    margin-top: 20px;
+}
+
+.tab{
+    background-image: url("feature-3.png");
+    background-size: cover;
+    height: 360px;
+    width: 478px;
+    margin: 0 100px;
+}
+
+.kid{
+    height: 500px;
+    color: white;
+   display: flex;
+   align-items: center;
+   margin: 0 60px;
+}
+
+
+
+.child h2{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-left: 100px;
+}
+
+.child p{
+    font-size: 1.25rem;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+
+.photo3{
+    background-image: url("feature-4.png");
+    background-size: cover;
+    height: 360px;
+    width: 478px;
+    margin: 0 30px;
+}
+
+.ques{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 75px 0;
+}
+
+.hi{
+
+    height: 90px;
+    width: 979px;
+   
+}
+.hi h2{
+    font-size: 3rem;
+    display: block;
+    
+}
+
+.hi p{
+    height: 84px;
+   
+}
+
+.hi h5{
+    margin-top: 50px;
+    font-size: 2.25rem;
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    background-color: #292828
+}
+
+.email{
+    display: block;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 1.25rem;
+    padding: 0px 0px;
+}
+
+
+.nav-search2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px
+}
+
+.search2{
+    width: 375px;
+    height: 55px;
+    background-color: transparent;
+    color: aliceblue;
+    border: 1px solid #97a19a;
+   
+}
+
+
+.nav-search2 button{
+   background-color: red;
+    height: 55px;
+    width: 200px;
+    border: none;
+    margin-left: 5px;
+    color: aliceblue;
+    font-size: 1.25rem;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.panel2{
+    
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 500;
+
+}
+
+ul{
+    margin-top: 100px;
+}
+
+ul a {
+    display: block;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.no {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
